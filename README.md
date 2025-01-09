@@ -10,6 +10,12 @@ This repo is based on https://github.com/suragnair/alpha-zero-general, while muc
 - Move all the args into one place and make it configurable.
 - Fix several bugs and erroneous comments.
 
+## Installation
+
+```bash
+conda env create -f environment.yml
+conda activate RL
+```
 ## Train
 
 ```

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python ./src/alphazero.py --train
