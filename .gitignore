@@ -162,3 +162,5 @@ cython_debug/
 .history/
 
 temp/
+
+wandb/
