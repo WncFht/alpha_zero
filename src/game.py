@@ -27,8 +27,8 @@ class Board():
         # 放置初始的4个棋子
         self.pieces[int(self.n/2)-1][int(self.n/2)] = 1
         self.pieces[int(self.n/2)][int(self.n/2)-1] = 1
-        self.pieces[int(self.n/2)-1][int(self.n/2)-1] = -1;
-        self.pieces[int(self.n/2)][int(self.n/2)] = -1;
+        self.pieces[int(self.n/2)-1][int(self.n/2)-1] = -1
+        self.pieces[int(self.n/2)][int(self.n/2)] = -1
 
     # 添加[][]索引语法到Board类
     def __getitem__(self, index): 
